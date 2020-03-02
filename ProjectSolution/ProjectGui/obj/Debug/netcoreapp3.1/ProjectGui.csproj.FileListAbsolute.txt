@@ -1,0 +1,17 @@
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\bin\Debug\netcoreapp3.1\ProjectGui.exe
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\bin\Debug\netcoreapp3.1\ProjectGui.deps.json
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\bin\Debug\netcoreapp3.1\ProjectGui.runtimeconfig.json
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\bin\Debug\netcoreapp3.1\ProjectGui.runtimeconfig.dev.json
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\bin\Debug\netcoreapp3.1\ProjectGui.dll
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\bin\Debug\netcoreapp3.1\ProjectGui.pdb
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.csprojAssemblyReference.cache
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui_MarkupCompile.cache
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui_MarkupCompile.lref
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.g.resources
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.AssemblyInfoInputs.cache
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.AssemblyInfo.cs
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.dll
+C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.pdb
