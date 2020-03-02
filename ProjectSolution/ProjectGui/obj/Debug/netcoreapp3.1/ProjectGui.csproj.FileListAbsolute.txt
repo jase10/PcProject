@@ -15,3 +15,10 @@ C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcore
 C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.AssemblyInfo.cs
 C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.dll
 C:\Users\Jasey\Documents\AppProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.pdb
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.csprojAssemblyReference.cache
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui_MarkupCompile.cache
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui_MarkupCompile.lref
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.dll
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.pdb
