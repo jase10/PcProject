@@ -31,6 +31,13 @@ namespace ProjectGui
             
         }
 
+        private void Account_Click(object sender, RoutedEventArgs e) 
+        {
+            LoginScreen ls = new LoginScreen();
+            ls.Show();
+
+        }
+
        
     }
 }

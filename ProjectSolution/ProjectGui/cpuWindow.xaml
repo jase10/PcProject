@@ -25,6 +25,6 @@
         <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="23,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
         <Button x:Name="Home_Copy" Content="Home" HorizontalAlignment="Left" Margin="173,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
         <Button x:Name="Home_Copy1" Content="Home" HorizontalAlignment="Left" Margin="311,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
-        <Button x:Name="Account" Content="Account" HorizontalAlignment="Left" Margin="471,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
+        <Button x:Name="Account" Content="Account" HorizontalAlignment="Left" Margin="471,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Account_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
     </Grid>
 </Window>
