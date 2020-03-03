@@ -4,12 +4,14 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ProjectGui"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="900">
     <Grid>
         <ListView x:Name="ListView" Margin="-10,82,0,0">
             <ListView.View>
                 <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="ID"></GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CPU Name"></GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreCount"></GridViewColumn>
                     <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreClock"></GridViewColumn>
@@ -20,6 +22,9 @@
                 </GridView>
             </ListView.View>
         </ListView>
-        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="23,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click"/>
+        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="23,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
+        <Button x:Name="Home_Copy" Content="Home" HorizontalAlignment="Left" Margin="173,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
+        <Button x:Name="Home_Copy1" Content="Home" HorizontalAlignment="Left" Margin="311,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
+        <Button x:Name="Account" Content="Account" HorizontalAlignment="Left" Margin="471,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click" Style="{DynamicResource MaterialDesignFlatDarkBgButton}" FontWeight="Normal" Foreground="#DDFFFFFF" Background="Blue" BorderBrush="#FF0B00F7"  />
     </Grid>
 </Window>

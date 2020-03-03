@@ -13,24 +13,19 @@ using System.Windows.Shapes;
 namespace ProjectGui
 {
     /// <summary>
-    /// Interaction logic for Window1.xaml
+    /// Interaction logic for LoginScreen.xaml
     /// </summary>
-    public partial class Window1 : Window
+    public partial class LoginScreen : Window
     {
-        
-        public Window1()
+        public LoginScreen()
         {
             InitializeComponent();
-            
         }
 
-        private void Home_Click(object sender, RoutedEventArgs e)
+        private void Login_Click(object sender, RoutedEventArgs e)
         {
-            MainWindow win1 = new MainWindow();
-            win1.Show();
-            
+            MainWindow main = new MainWindow();
+            main.Show();
         }
-
-       
     }
 }

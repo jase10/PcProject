@@ -41,6 +41,10 @@
       "frameworks": {
         "netcoreapp3.1": {
           "dependencies": {
+            "MaterialDesignColors": {
+              "target": "Package",
+              "version": "[1.2.2, )"
+            },
             "MaterialDesignThemes": {
               "target": "Package",
               "version": "[3.0.1, )"
@@ -82,7 +86,7 @@
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             },
-            "Microsoft.WindowsDesktop.App.WPF": {
+            "Microsoft.WindowsDesktop.App": {
               "privateAssets": "none"
             }
           },

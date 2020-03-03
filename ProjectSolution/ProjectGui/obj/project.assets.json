@@ -5147,6 +5147,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "MaterialDesignColors >= 1.2.2",
       "MaterialDesignThemes >= 3.0.1",
       "Microsoft.EntityFrameworkCore >= 3.1.2",
       "Microsoft.EntityFrameworkCore.Relational >= 3.1.2",
@@ -5196,6 +5197,10 @@
     "frameworks": {
       "netcoreapp3.1": {
         "dependencies": {
+          "MaterialDesignColors": {
+            "target": "Package",
+            "version": "[1.2.2, )"
+          },
           "MaterialDesignThemes": {
             "target": "Package",
             "version": "[3.0.1, )"
@@ -5237,7 +5242,7 @@
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           },
-          "Microsoft.WindowsDesktop.App.WPF": {
+          "Microsoft.WindowsDesktop.App": {
             "privateAssets": "none"
           }
         },

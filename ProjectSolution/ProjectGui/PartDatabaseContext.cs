@@ -15,7 +15,12 @@ namespace ProjectGui
         {
         }
 
-        public virtual DbSet<Cpu> Cpu { get; set; }
+        internal object Cpu(Func<object, object> p)
+        {
+            throw new NotImplementedException();
+        }
+
+        
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
