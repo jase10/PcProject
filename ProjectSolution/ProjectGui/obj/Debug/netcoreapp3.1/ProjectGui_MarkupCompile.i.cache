@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\App.xaml
-2462529049
+2-408378318
 
-7-109223835
+7-918221409
 213-94074769
-MainWindow.xaml;Window1.xaml;
+cpuWindow.xaml;MainWindow.xaml;
 
-False
+True
 

@@ -1,0 +1,25 @@
+﻿<Window x:Class="ProjectGui.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ProjectGui"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="900">
+    <Grid>
+        <ListView x:Name="ListView" Margin="-10,82,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CPU Name"></GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreCount"></GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreClock"></GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreClock"></GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="BoostClock"></GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="TDP"></GridViewColumn>
+                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Price"></GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="Home" Content="Home" HorizontalAlignment="Left" Margin="23,25,0,0" VerticalAlignment="Top" Height="39" Width="105" Click="Home_Click"/>
+    </Grid>
+</Window>

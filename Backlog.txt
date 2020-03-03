@@ -1,0 +1,58 @@
+Pc Part App
+-	Database
+-	GUI 
+-	C# code 
+User Stories
+-	As a user I want to be able to see information on a specific part chosen
+-	As a user I want to get a list of parts and order them by a specific attribute 
+-	As a user I want to be able to put parts together to build my own machine 
+-	As a user I want to be able to check for compatibility issues 
+-	As a user I want to be able to login 
+-	As a user in want to be able to save build for future references 
+-	As a user I want to search for parts. 
+
+Database
+Table for storing user login
+- username
+- password / pin 
+
+Tables 
+-	CPU 
+-	GPU
+-	Motherboard
+-	Memory/RAM
+-	Storage
+-	Power Supply
+-	Case
+-	Video Card 
+
+GUI
+Window for building a machine 
+Window for Login
+Window for Home 
+Window for parts retrieval
+
+
+Sprint 0
+Create database with one table and link it to C# and GUI to get an min viable product 
+Steps 
+-	Create a Database from CPU 
+-	Link it to visual Studio 
+-	Link to GUI layer
+-	Create GUI to be able to retrieve database. 
+
+
+
+Sprint Review
+-Created Database with a table named CPU and added Values in there
+-Able to query the database
+- Added Nish and Cathy as Collab’s on project on GitHub
+- Connected Database to Visual Studio 
+
+
+Sprint 1
+-As a user I want to be able to see information on a specific part chosen
+
+-As a user I want to get a list of parts and order them by a specific attribute 
+
+- Create a Dataset so that a data can be retrieved in WPF
