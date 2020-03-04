@@ -6,12 +6,17 @@
         xmlns:local="clr-namespace:ProjectGui"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d"
-        Title="Window1" Height="450" Width="900">
-    <Grid>
+        Title="Window1" Height="450" Width="900"
+    xmlns:System="clr-namespace:System;assembly=System.Runtime">
+    <Window.Resources>
+        <System:Double x:Key="WindwoBackground">0.06</System:Double>
+    </Window.Resources>
+
+    <Grid Background="{DynamicResource WindowColourSchema}" Height="437">
         <!-- Home Button -->
         <Button x:Name="Home" Content="Home" 
                 HorizontalAlignment="Left" 
-                Margin="23,25,0,0" 
+                Margin="459,19,0,0" 
                 VerticalAlignment="Top"
                 Height="39" 
                 Width="105" 
@@ -19,52 +24,143 @@
                 Style="{DynamicResource MaterialDesignFlatDarkBgButton}" 
                 FontWeight="Normal" 
                 Foreground="#DDFFFFFF" 
-                Background="Blue" 
-                BorderBrush="#FF0B00F7"  />
+                Background="#FF18181F" 
+                BorderBrush="Black"  />
 
         <!--- Button to get to page-->
-        <Button x:Name="Home_Copy" 
-                Content="Home" 
-                HorizontalAlignment="Left" 
-                Margin="173,25,0,0" 
-                VerticalAlignment="Top" 
-                Height="39" 
-                Width="105" 
-                Click="Home_Click" 
-                Style="{DynamicResource MaterialDesignFlatDarkBgButton}" 
-                FontWeight="Normal" 
-                Foreground="#DDFFFFFF" 
-                Background="Blue" 
-                BorderBrush="#FF0B00F7"  />
 
         <!--- Button to get to Specific Page -->
-        <Button x:Name="Home_Copy1" 
-                Content="Home" 
-                HorizontalAlignment="Left" 
-                Margin="311,25,0,0" 
-                VerticalAlignment="Top" 
-                Height="39" Width="105" 
-                Click="Home_Click" 
-                Style="{DynamicResource MaterialDesignFlatDarkBgButton}" 
-                FontWeight="Normal" 
-                Foreground="#DDFFFFFF" 
-                Background="Blue" 
-                BorderBrush="#FF0B00F7"  />
 
 
         <!-- Account Button to Account Login-->
         <Button x:Name="Account" 
                 Content="Account"
                 HorizontalAlignment="Left" 
-                Margin="470,25,0,0"
+                Margin="304,25,0,0"
                 VerticalAlignment="Top"
                 Height="39"
                 Width="105" 
                 Click="Account_Click" 
                 FontWeight="Normal" 
                 Foreground="#DDFFFFFF" 
-                Background="Blue" 
-                BorderBrush="#FF0B00F7"  />
-        <ListBox x:Name="ListBoxCPU" Background="White" Grid.Column="0" SelectionChanged="ListBoxCPU_SelectionChanged" Margin="0,82,580,0"/>
+                Background="#FF414149" 
+                BorderBrush="Black"  />
+
+        <!--List box that has all the specific parts clicked-->
+
+        <ListBox x:Name="ListBoxCPU" Grid.Column="0" SelectionChanged="ListBoxCPU_SelectionChanged" Margin="0,117,580,0" Background="Black"/>
+
+
+
+        <!-- Table for Specific Part Information-->
+        <Label Content="Name" 
+               HorizontalAlignment="Left" 
+               Margin="320,117,0,0" 
+               VerticalAlignment="Top"
+               Height="39" Width="96" 
+               Background="White" 
+               BorderBrush="Black"/>
+        <!-- Table Label Core Count-->
+        <Label Content="CoreCount" 
+               HorizontalAlignment="Left" 
+               Margin="320,156,0,0" 
+               VerticalAlignment="Top" 
+               Height="36" Width="96"
+               RenderTransformOrigin="0.081,0.548" 
+               Background="#FFFFFDFD"/>
+
+
+        <!-- CoreClock -->
+        <Label Content="CoreClock (GHz)" 
+               HorizontalAlignment="Left" 
+               Margin="320,192,0,0" 
+               VerticalAlignment="Top"
+               Height="39" Width="96" 
+               Background="White"/>
+        <!-- Boost Clock Table Column -->
+        <Label Content="BoostClock (GHz)" 
+               HorizontalAlignment="Left"
+               Margin="320,231,0,0" 
+               VerticalAlignment="Top"
+               Height="40" Width="96" 
+               Background="White"/>
+
+        <!-- TDP table column -->
+        <Label Content="TDP (W)" 
+               HorizontalAlignment="Left"
+               Margin="320,271,0,0" 
+               VerticalAlignment="Top" 
+               Height="39" Width="96"
+               RenderTransformOrigin="0.558,5.425" 
+               Background="White"/>
+        <!-- Price -->
+        <Label Content="Price (£)" 
+               HorizontalAlignment="Left" 
+               Margin="320,310,0,0"
+               VerticalAlignment="Top"
+               Height="39" Width="96"
+               Background="White"
+               />
+        
+        <!-- Name field to display Name-->
+        <TextBox x:Name="tbName1" 
+                 HorizontalAlignment="Left" 
+                 Margin="416,117,0,0" 
+                 Text="TextBox" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="148" Height="39" 
+                 Background="White"/>
+        <!--CoreCount field to display-->
+        <TextBox x:Name="tbCoreCount" 
+                 HorizontalAlignment="Left"
+                 Margin="416,156,0,0" 
+                 Text="TextBox" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top"
+                 Width="148" Height="39" 
+                 Background="White"/>
+
+        <!--CoreClock field to display-->
+        <TextBox x:Name="tbCoreClock"
+                 HorizontalAlignment="Left" 
+                 Margin="416,192,0,0" 
+                 Text="TextBox" TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="148" Height="39" 
+                 Background="White"/>
+
+        <!--BoostClock field to display-->
+        <TextBox x:Name="tbBoostClock" 
+                 HorizontalAlignment="Left" 
+                 Margin="416,231,0,0" 
+                 Text="TextBox" 
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top" 
+                 Width="148" Height="39" 
+                 Background="White"/>
+        <!--CoreCount field to display-->
+        <TextBox x:Name="tbTDP"
+                 HorizontalAlignment="Left"
+                 Margin="416,266,0,0"
+                 Text="TextBox" TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="148" Height="39" 
+                 Background="White"/>
+        <!--CoreCount field to display-->
+        <TextBox x:Name="tbPrice" 
+                 HorizontalAlignment="Left"
+                 Margin="416,305,0,0" 
+                 Text="TextBox" 
+                 TextWrapping="Wrap"
+                 VerticalAlignment="Top"
+                 Width="148" Height="44" 
+                 Background="White"/>
+        
+
+
+
+
     </Grid>
+
 </Window>

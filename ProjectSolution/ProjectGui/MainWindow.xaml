@@ -8,8 +8,8 @@
         Title="MainWindow" Height="398" Width="686">
 
 
-    <Grid>
-
+    <Grid Background="{DynamicResource WindowColourSchema}">
+        
 
     </Grid>
 

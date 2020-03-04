@@ -56,7 +56,11 @@ namespace ProjectGui
 
         private void ListBoxCPU_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            PopulateListBox();
+            if (ListBoxCPU.SelectedItem != null)
+            {
+                _cpu = (Cpu)ListBoxCPU.SelectedItem;
+                PopulateListBox();
+            }
         }
 
         
