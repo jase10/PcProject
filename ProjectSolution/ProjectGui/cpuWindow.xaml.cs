@@ -39,6 +39,9 @@ namespace ProjectGui
 
         }
 
-       
+        private void ListBoxCustomer_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }

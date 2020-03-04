@@ -15,12 +15,7 @@ namespace ProjectGui
         {
         }
 
-        internal object Cpu(Func<object, object> p)
-        {
-            throw new NotImplementedException();
-        }
-
-        
+        public virtual DbSet<Cpu> Cpu { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -43,24 +38,24 @@ namespace ProjectGui
                     .HasColumnName("CPU_Name")
                     .HasColumnType("text");
                 entity.Property(e => e.CoreCount)
-                .HasColumnName("CoreCount")
-                .HasColumnType("int");
+                   .HasColumnName("CoreCount")
+                   .HasColumnType("int");
                 entity.Property(e => e.CoreClock)
-                .HasColumnName("CoreClock")
-                .HasColumnType("float");
+                   .HasColumnName("CoreClock")
+                   .HasColumnType("float");
                 entity.Property(e => e.BoostClock)
-                .HasColumnName("BoostClock")
-                .HasColumnType("float");
+                   .HasColumnName("BoostClock")
+                   .HasColumnType("float");
+                entity.Property(e => e.Tdp).HasColumnName("TDP")
+                .HasColumnName("TDP")
+                   .HasColumnType("int");
 
-                entity.Property(e => e.Tdp).HasColumnName("TDP");
                 entity.Property(e => e.Price)
-                .HasColumnName("Price")
-                .HasColumnType("float");
+                    .HasColumnName("Price")
+                    .HasColumnType("float");
+                 
 
-
-
-
-
+                
             });
 
             OnModelCreatingPartial(modelBuilder);

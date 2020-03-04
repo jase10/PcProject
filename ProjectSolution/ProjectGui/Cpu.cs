@@ -12,5 +12,14 @@ namespace ProjectGui
         public double? BoostClock { get; set; }
         public int? Tdp { get; set; }
         public double? Price { get; set; }
+
+
+        public override string ToString()
+        {
+            return base.ToString();
+        }
     }
+
+    
+    
 }

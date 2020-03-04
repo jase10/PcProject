@@ -8,20 +8,6 @@
         mc:Ignorable="d"
         Title="Window1" Height="450" Width="900">
     <Grid>
-        <ListView x:Name="ListView" Margin="-10,82,0,0">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="ID"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CPU Name"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreCount"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreClock"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="CoreClock"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="BoostClock"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="TDP"></GridViewColumn>
-                    <GridViewColumn DisplayMemberBinding="{Binding Name}" Header="Price"></GridViewColumn>
-                </GridView>
-            </ListView.View>
-        </ListView>
         <!-- Home Button -->
         <Button x:Name="Home" Content="Home" 
                 HorizontalAlignment="Left" 
@@ -79,5 +65,6 @@
                 Foreground="#DDFFFFFF" 
                 Background="Blue" 
                 BorderBrush="#FF0B00F7"  />
+        <ListBox x:Name="ListBoxCustomer" Background="White" Grid.Column="0" SelectionChanged="ListBoxCustomer_SelectionChanged" Margin="0,82,580,0"/>
     </Grid>
 </Window>

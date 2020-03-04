@@ -1,5 +1,7 @@
 ﻿using ProjectGui;
 using System;
+using System.Collections.Generic;
+using System.Linq;
 
 namespace ProjectApp
 {
@@ -9,14 +11,20 @@ namespace ProjectApp
         {
             using (var db = new PartDatabaseContext())
             {
-                var orderQuery = from Cpu in db.Cpu
-                                 select row => row;
+                var query1 =
+                    from Cpu in db.Cpu
+                    select Cpu;
+                
 
-
-
-
+                List<Cpu> n = query1.ToList<Cpu>();
+                foreach (var a in n)
+                { 
+                Console.WriteLine(n.ToString());
+                }
 
             }
+            
+           
         }
     } 
 }
