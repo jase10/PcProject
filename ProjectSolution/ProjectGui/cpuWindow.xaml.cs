@@ -38,6 +38,8 @@ namespace ProjectGui
         {
             LoginScreen ls = new LoginScreen();
             ls.Show();
+            Close();
+
 
         }
 
@@ -46,6 +48,7 @@ namespace ProjectGui
             using (var db = new PartDatabaseContext())
             {
                 ListBoxCPU.ItemsSource = db.Cpu.ToList();
+              
 
             }
         }

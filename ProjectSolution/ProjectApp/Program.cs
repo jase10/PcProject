@@ -13,7 +13,7 @@ namespace ProjectApp
             {
                 var query1 =
                     from cpu in db.Cpu
-                    select cpu;
+                    select cpu.CpuName;
                
                 foreach (var cpu in query1)
                 { 
