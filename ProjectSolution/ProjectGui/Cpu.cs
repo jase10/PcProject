@@ -16,7 +16,7 @@ namespace ProjectGui
 
         public override string ToString()
         {
-            return base.ToString();
+            return $"{CpuId}, {CpuName}, {CoreCount}, {CoreClock}, {BoostClock}, {Tdp}, {Price}";
         }
     }
 

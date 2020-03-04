@@ -39,7 +39,7 @@ namespace ProjectGui
 
         }
 
-        private void ListBoxCustomer_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        private void ListBoxCPU_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
 
         }

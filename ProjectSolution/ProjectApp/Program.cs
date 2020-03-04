@@ -12,19 +12,23 @@ namespace ProjectApp
             using (var db = new PartDatabaseContext())
             {
                 var query1 =
-                    from Cpu in db.Cpu
-                    select Cpu;
+                    from cpu in db.Cpu
+                    select cpu;
                 
 
                 List<Cpu> n = query1.ToList<Cpu>();
                 foreach (var a in n)
                 { 
-                Console.WriteLine(n.ToString());
+                Console.WriteLine(a);
                 }
 
             }
+
+          
+
             
-           
+
+
         }
     } 
 }

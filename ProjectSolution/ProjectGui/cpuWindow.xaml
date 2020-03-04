@@ -65,6 +65,6 @@
                 Foreground="#DDFFFFFF" 
                 Background="Blue" 
                 BorderBrush="#FF0B00F7"  />
-        <ListBox x:Name="ListBoxCustomer" Background="White" Grid.Column="0" SelectionChanged="ListBoxCustomer_SelectionChanged" Margin="0,82,580,0"/>
+        <ListBox x:Name="ListBoxCPU" Background="White" Grid.Column="0" SelectionChanged="ListBoxCPU_SelectionChanged" Margin="0,82,580,0"/>
     </Grid>
 </Window>
