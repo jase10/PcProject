@@ -14,12 +14,10 @@ namespace ProjectApp
                 var query1 =
                     from cpu in db.Cpu
                     select cpu;
-                
-
-                List<Cpu> n = query1.ToList<Cpu>();
-                foreach (var a in n)
+               
+                foreach (var cpu in query1)
                 { 
-                Console.WriteLine(a);
+                Console.WriteLine(cpu);
                 }
 
             }

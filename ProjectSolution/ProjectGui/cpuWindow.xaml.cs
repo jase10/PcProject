@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -17,10 +18,11 @@ namespace ProjectGui
     /// </summary>
     public partial class Window1 : Window
     {
-        
+        private Cpu _cpu;
         public Window1()
         {
             InitializeComponent();
+            PopulateListBox();
             
         }
 
@@ -39,9 +41,21 @@ namespace ProjectGui
 
         }
 
+        private void PopulateListBox()
+        {
+            using (var db = new PartDatabaseContext())
+            {
+                ListBoxCPU.ItemsSource = db.Cpu.ToList();
+
+            }
+        }
+
+
         private void ListBoxCPU_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
+            PopulateListBox();
         }
+
+        
     }
 }
