@@ -48,7 +48,11 @@
 
         <!--List box that has all the specific parts clicked-->
 
-        <ListBox x:Name="ListBoxCPU" Grid.Column="0" SelectionChanged="ListBoxCPU_SelectionChanged" Margin="0,117,580,0" Background="Black"/>
+        <ListBox x:Name="ListBoxCPU" 
+                 Grid.Column="0"
+                 SelectionChanged="ListBoxCPU_SelectionChanged" 
+                 Margin="0,117,580,0" 
+                 Background="{x:Null}"/>
 
 
 

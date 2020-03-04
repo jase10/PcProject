@@ -11,13 +11,22 @@ User Stories
 -	As a user in want to be able to save build for future references 
 -	As a user I want to search for parts. 
 
+Product Backlog
+An application that can retrieve parts from a database and able to get more infromation on them
+Create Database
+Link the database from SqlServer to Visual Studio2019 and C#
+Understand Entity Framework Core better 
+Created Gui that interacts with database and code to provide a list of items that can be clicked for more infromation
+() <-- indicated order of importance in regards to MVP and a demo project 
+
 Database
-Table for storing user login
+Table for PartsInformation (1)
+Table for storing user login (3)
 - username
 - password / pin 
 
 Tables 
--	CPU 
+-	CPU (1)
 -	GPU
 -	Motherboard
 -	Memory/RAM
@@ -27,10 +36,12 @@ Tables
 -	Video Card 
 
 GUI
-Window for building a machine 
-Window for Login
-Window for Home 
-Window for parts retrieval
+Window for Login (3)
+Window for Home (2)
+Window for parts retrieval (1)
+Window for building machine
+
+
 
 
 Sprint 0
@@ -56,3 +67,20 @@ Sprint 1
 -As a user I want to get a list of parts and order them by a specific attribute 
 
 - Create a Dataset so that a data can be retrieved in WPF
+
+Sprint 1 review 
+-Created Querys to filter the database
+- Able to Query the database in C# 
+-Added Home window, Login Screen Window
+- Connected Windows to one Another 
+- Created Retrieval of parts page 
+-Designed the Gui
+
+- Querying the database was a blocker to begin with but overcame it by creating window functionality
+- Next task is to finish adding a click method to list box so when an item is clicked its opened for more infromation
+-This is broken down into 
+-creating a table that can show the information when clicked
+- adding a click method so that user can interact with the items in the List
+
+
+

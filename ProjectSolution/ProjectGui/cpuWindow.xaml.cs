@@ -10,6 +10,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using ProjectGui;
 
 namespace ProjectGui
 {
@@ -19,9 +20,11 @@ namespace ProjectGui
     public partial class Window1 : Window
     {
         private Cpu _cpu;
+        Method m;
         public Window1()
         {
             InitializeComponent();
+            m = new Method();
             PopulateListBox();
             
         }
@@ -59,10 +62,22 @@ namespace ProjectGui
             if (ListBoxCPU.SelectedItem != null)
             {
                 _cpu = (Cpu)ListBoxCPU.SelectedItem;
-                PopulateListBox();
+                PopulateCPUFields();
             }
         }
 
-        
+        private void PopulateCPUFields()
+        {
+            if (_cpu != null)
+            {
+                tbName1.Text = _cpu.CpuName.ToString();
+                tbCoreCount.Text = _cpu.CoreCount.ToString();
+                tbCoreClock.Text = _cpu.CoreClock.ToString();
+                tbBoostClock.Text = _cpu.BoostClock.ToString();
+                tbTDP.Text = _cpu.Tdp.ToString();
+                tbPrice.Text = _cpu.Price.ToString();
+            }
+        }
+
     }
 }
