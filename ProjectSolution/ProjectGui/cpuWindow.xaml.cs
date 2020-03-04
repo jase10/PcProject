@@ -28,6 +28,7 @@ namespace ProjectGui
         {
             MainWindow win1 = new MainWindow();
             win1.Show();
+            Close();
             
         }
 

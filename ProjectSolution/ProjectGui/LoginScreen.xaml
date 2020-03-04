@@ -9,13 +9,13 @@
     <Grid>
         <Grid.Background>
             <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
-                <GradientStop Color="Black" Offset="0.89"/>
-                <GradientStop Color="#FF0621C7" Offset="0.419"/>
+                <GradientStop Color="Black" Offset="0.912"/>
+                <GradientStop Color="#FF0621C7" Offset="0.22"/>
             </LinearGradientBrush>
         </Grid.Background>
         <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="277,203,0,0" VerticalAlignment="Top" Width="211" Height="47"/>
         <TextBox x:Name="username" HorizontalAlignment="Left" Margin="277,135,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" Height="36" SelectionTextBrush="#FFFFF4F4" SelectionBrush="#FF1D73B8"/>
-        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="284,287,0,0" VerticalAlignment="Top" Background="#FFF7EFEF" Foreground="#DD080808" BorderBrush="#FF020202" Click="Login_Click"/>
+        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="284,287,0,0" VerticalAlignment="Top" Background="#FFF7EFEF" Foreground="#DD080808" BorderBrush="#FF020202" Click="Login_Click" Visibility="Visible" Width="88"/>
         <Button x:Name="Register" Content="Register" HorizontalAlignment="Left" Margin="400,287,0,0" VerticalAlignment="Top" Foreground="#DD000000" Background="#FFF5F3F7" BorderBrush="#FF040404" Width="88"/>
 
     </Grid>

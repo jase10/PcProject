@@ -1,0 +1,3 @@
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.csprojAssemblyReference.cache
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.AssemblyInfoInputs.cache
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectApp\obj\Debug\netcoreapp3.1\ProjectApp.AssemblyInfo.cs
