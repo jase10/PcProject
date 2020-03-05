@@ -48,10 +48,12 @@ namespace ProjectGui
 
         private void PopulateListBox()
         {
-            using (var db = new PartDatabaseContext())
-            {
-                ListBoxCPU.ItemsSource = m.Name();
-            }
+            var listForBox = m.GetList();
+            ListBoxCPU.ItemsSource = listForBox;
+            //using (var db = new PartDatabaseContext())
+            //{
+            //    ListBoxCPU.ItemsSource = db.Cpu.ToList();
+            //}
         }
 
 
