@@ -16,12 +16,11 @@
         <!-- Home Button -->
         <Button x:Name="Home" Content="Home" 
                 HorizontalAlignment="Left" 
-                Margin="459,19,0,0" 
+                Margin="22,25,0,0" 
                 VerticalAlignment="Top"
                 Height="39" 
                 Width="105" 
                 Click="Home_Click" 
-                Style="{DynamicResource MaterialDesignFlatDarkBgButton}" 
                 FontWeight="Normal" 
                 Foreground="#DDFFFFFF" 
                 Background="#FF18181F" 
@@ -36,10 +35,10 @@
         <Button x:Name="Account" 
                 Content="Account"
                 HorizontalAlignment="Left" 
-                Margin="304,25,0,0"
+                Margin="179,25,0,0"
                 VerticalAlignment="Top"
                 Height="39"
-                Width="105" 
+                Width="107" 
                 Click="Account_Click" 
                 FontWeight="Normal" 
                 Foreground="#DDFFFFFF" 
@@ -52,7 +51,7 @@
                  Grid.Column="0"
                  SelectionChanged="ListBoxCPU_SelectionChanged" 
                  Margin="0,117,580,0" 
-                 Background="{x:Null}"/>
+                 Background="{x:Null}" />
 
 
 
@@ -105,7 +104,7 @@
                Height="39" Width="96"
                Background="White"
                />
-        
+
         <!-- Name field to display Name-->
         <TextBox x:Name="tbName1" 
                  HorizontalAlignment="Left" 
@@ -160,7 +159,7 @@
                  VerticalAlignment="Top"
                  Width="148" Height="44" 
                  Background="White"/>
-        
+
 
 
 

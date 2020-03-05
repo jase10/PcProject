@@ -7,25 +7,32 @@ namespace ProjectApp
 {
     public class Program
     {
+       
         public static void Main(string[] args)
-        {
+        { 
+            CodeLayer cl = new CodeLayer();
             using (var db = new PartDatabaseContext())
             {
                 var query1 =
-                    from cpu in db.Cpu
-                    select cpu;
-               
+                    from co in db.Cpu
+                    select co.CpuName;
+
                 foreach (var cpu in query1)
-                { 
-                Console.WriteLine(cpu);
+                {
+                    Console.WriteLine(cpu);
                 }
+
+                
 
             }
 
+            CodeLayer c = new CodeLayer();
+
+            Console.WriteLine(c.GetCpus());
 
 
-            
-            
+
+
 
 
         }

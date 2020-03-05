@@ -20,11 +20,11 @@ namespace ProjectGui
     public partial class Window1 : Window
     {
         private Cpu _cpu;
-        Method m;
+        CodeLayer Cl;
         public Window1()
         {
             InitializeComponent();
-            m = new Method();
+            Cl = new CodeLayer();
             PopulateListBox();
             
         }
@@ -48,7 +48,7 @@ namespace ProjectGui
 
         private void PopulateListBox()
         {
-            var listForBox = m.GetList();
+            var listForBox = Cl.GetList();
             ListBoxCPU.ItemsSource = listForBox;
             //using (var db = new PartDatabaseContext())
             //{
@@ -70,6 +70,7 @@ namespace ProjectGui
         {
             if (_cpu != null)
             {
+                // ask the code layer for the cpu object
                 tbName1.Text = _cpu.CpuName.ToString();
                 tbCoreCount.Text = _cpu.CoreCount.ToString();
                 tbCoreClock.Text = _cpu.CoreClock.ToString();
