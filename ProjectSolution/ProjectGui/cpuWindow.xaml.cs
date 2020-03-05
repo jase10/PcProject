@@ -80,5 +80,9 @@ namespace ProjectGui
             }
         }
 
+        private void btnSettings_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

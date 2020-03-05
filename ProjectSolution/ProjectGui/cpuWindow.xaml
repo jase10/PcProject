@@ -14,7 +14,7 @@
 
     <Grid Background="{DynamicResource WindowColourSchema}" Height="437">
         <!-- Home Button -->
-        <Button x:Name="Home" Content="Home" 
+        <Button Background="{DynamicResource ButtonBackground1}" x:Name="Home" Content="Home" 
                 HorizontalAlignment="Left" 
                 Margin="22,25,0,0" 
                 VerticalAlignment="Top"
@@ -23,8 +23,8 @@
                 Click="Home_Click" 
                 FontWeight="Normal" 
                 Foreground="#DDFFFFFF" 
-                Background="#FF18181F" 
-                BorderBrush="Black"  />
+                BorderBrush="Black"  >
+        </Button>
 
         <!--- Button to get to page-->
 
@@ -35,15 +35,21 @@
         <Button x:Name="Account" 
                 Content="Account"
                 HorizontalAlignment="Left" 
-                Margin="179,25,0,0"
+                Margin="314,25,0,0"
                 VerticalAlignment="Top"
                 Height="39"
-                Width="107" 
+                Width="108" 
                 Click="Account_Click" 
                 FontWeight="Normal" 
                 Foreground="#DDFFFFFF" 
-                Background="#FF414149" 
-                BorderBrush="Black"  />
+                BorderBrush="Black"  >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0.148"/>
+                    <GradientStop Color="#FFFB0000" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
         <!--List box that has all the specific parts clicked-->
 
@@ -159,6 +165,24 @@
                  VerticalAlignment="Top"
                  Width="148" Height="44" 
                  Background="White"/>
+        <Button x:Name="btnSettings" 
+            Content="Account"
+            HorizontalAlignment="Left" 
+            Margin="457,25,0,0"
+            VerticalAlignment="Top"
+            Height="39"
+            Width="107" 
+            Click="btnSettings_Click" 
+            FontWeight="Normal" 
+            Foreground="#DDFFFFFF" 
+            BorderBrush="Black"  >
+            <Button.Background>
+                <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                    <GradientStop Color="Black" Offset="0.148"/>
+                    <GradientStop Color="#FFFB0000" Offset="1"/>
+                </LinearGradientBrush>
+            </Button.Background>
+        </Button>
 
 
 
