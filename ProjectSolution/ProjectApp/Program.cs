@@ -26,10 +26,6 @@ namespace ProjectApp
 
             }
 
-            CodeLayer c = new CodeLayer();
-
-            Console.WriteLine(c.GetCpus());
-
 
 
 

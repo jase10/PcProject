@@ -18,19 +18,7 @@ namespace ProjectGui
             }
         }
 
-        public List<Cpu> GetCpus()
-        {
-            using (var db = new PartDatabaseContext())
-            {
-                return db.Cpu.ToList();
-
-
-            }
-
-
-
-
-        }
+        
 
 
     }

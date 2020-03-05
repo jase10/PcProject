@@ -6889,6 +6889,7 @@
       "Microsoft.NET.Test.Sdk >= 16.4.0",
       "NUnit3TestAdapter >= 3.16.1",
       "ProjectApp >= 1.0.0",
+      "ProjectGui >= 1.0.0",
       "nunit >= 3.12.0"
     ]
   },
@@ -6924,6 +6925,9 @@
           "projectReferences": {
             "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj": {
               "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj"
+            },
+            "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
+              "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj"
             }
           }
         }

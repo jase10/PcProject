@@ -32,6 +32,9 @@
             "projectReferences": {
               "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj": {
                 "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj"
+              },
+              "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
+                "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj"
               }
             }
           }
