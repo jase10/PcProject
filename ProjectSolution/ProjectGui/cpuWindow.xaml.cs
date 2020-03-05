@@ -50,9 +50,7 @@ namespace ProjectGui
         {
             using (var db = new PartDatabaseContext())
             {
-                ListBoxCPU.ItemsSource = db.Cpu.ToList();
-              
-
+                ListBoxCPU.ItemsSource = m.Name();
             }
         }
 
