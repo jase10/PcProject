@@ -13,10 +13,58 @@
                 <GradientStop Color="{DynamicResource MaterialDesignShadow}" Offset="0.78"/>
             </LinearGradientBrush>
         </Grid.Background>
-        <PasswordBox x:Name="password" HorizontalAlignment="Left" Margin="277,203,0,0" VerticalAlignment="Top" Width="211" Height="47" Foreground="#FFFDFDFD"/>
-        <TextBox x:Name="username" HorizontalAlignment="Left" Margin="277,135,0,0" Text="Username" TextWrapping="Wrap" VerticalAlignment="Top" Width="211" Height="36" SelectionTextBrush="#FFFFF4F4" SelectionBrush="#FF1D73B8" Foreground="Snow"/>
-        <Button x:Name="Login" Content="Login" HorizontalAlignment="Left" Margin="284,287,0,0" VerticalAlignment="Top" Background="#FFF7EFEF" Foreground="#DD080808" BorderBrush="#FF020202" Click="Login_Click" Visibility="Visible" Width="88"/>
-        <Button x:Name="Register" Content="Register" HorizontalAlignment="Left" Margin="400,287,0,0" VerticalAlignment="Top" Foreground="#DD000000" Background="#FFF5F3F7" BorderBrush="#FF040404" Width="88"/>
+        
+        <!--Password Box-->
+        <PasswordBox x:Name="password" 
+                     HorizontalAlignment="Left" 
+                     Margin="277,250,0,0" 
+                     VerticalAlignment="Top" 
+                     Width="211" Height="47"
+                     Foreground="#FFFDFDFD"/>
+        
+        <!--username-->
+        <TextBox x:Name="username" 
+                 HorizontalAlignment="Left" 
+                 Margin="277,181,0,0" 
+                 Text="Username" 
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="211" Height="36" 
+                 SelectionTextBrush="#FFFFF4F4" 
+                 SelectionBrush="#FF1D73B8" 
+                 Foreground="Snow"/>
+        <!--Login Button-->
+        <Button x:Name="Login" 
+                Content="Login" 
+                HorizontalAlignment="Left" 
+                Margin="276,334,0,0" 
+                VerticalAlignment="Top" 
+                Background="#FFF7EFEF" 
+                Foreground="#DD080808" 
+                BorderBrush="#FF020202" 
+                Click="Login_Click"
+                Width="88"/>
+        
+        <!--Register-->
+        <Button x:Name="Register" 
+                Content="Register" 
+                HorizontalAlignment="Left" 
+                Margin="400,334,0,0" 
+                VerticalAlignment="Top" 
+                Foreground="#DD000000"
+                Background="#FFF5F3F7" 
+                BorderBrush="#FF040404" 
+                Width="88" 
+                Click="Register_Click"/>
+       
+        
+        <!-- Logo-->
+        <Image HorizontalAlignment="Left" 
+            Height="119" 
+            Margin="305,33,0,0" 
+            VerticalAlignment="Top" Width="140"
+            Source="C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\Logo.png"
+               />
 
     </Grid>
 </Window>

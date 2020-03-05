@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\App.xaml
-31282879215
+41150497981
 
-9943185433
+10-234447344
 220-385239947
-cpuWindow.xaml;LoginScreen.xaml;MainWindow.xaml;
+cpuWindow.xaml;LoginScreen.xaml;MainWindow.xaml;RegisterWindow.xaml;
 
-True
+False
 

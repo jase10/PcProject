@@ -24,36 +24,44 @@
                 HorizontalAlignment="Left" 
                 Margin="10,102,0,0" 
                 VerticalAlignment="Top" 
-                BorderBrush="Black">
+                BorderBrush="#FFF3EEEE" Click="btnHomeClick" Width="83">
         </Button>
-        
-         <!-- Search Button-->
+
+        <!-- Search Button-->
         <Button Background="{DynamicResource ButtonBackground}" x:Name="btnSearch" 
-                Content="Button" 
+                Content="Search" 
                 HorizontalAlignment="Left" 
-                Margin="10,148,0,0" 
+                Margin="10,144,0,0" 
                 VerticalAlignment="Top" 
-                BorderBrush="Black">
-        </Button>
-        
+                BorderBrush="#FFF7F7F7" Click="btnSearchClick" Width="83"
+        />
+
         <!-- Button Account -->
         <Button Background="{DynamicResource ButtonBackground}" x:Name="btnAccount" 
-                Content="Button" 
+                Content="Account" 
                 HorizontalAlignment="Left" 
-                Margin="10,203,0,0" 
+                Margin="9,191,0,0" 
                 VerticalAlignment="Top" 
-                BorderBrush="Black">
+                BorderBrush="White">
         </Button>
-        
+
         <!-- Settings Button-->
         <Button Background="{DynamicResource ButtonBackground}" 
                 x:Name="btnSettings" 
-                Content="Button" 
+                Content="Settings" 
                 HorizontalAlignment="Left" 
-                Margin="10,267,0,0" 
+                Margin="10,239,0,0" 
                 VerticalAlignment="Top" 
-                BorderBrush="Black">
+                BorderBrush="#FFFFF9F9" Height="37" Width="83">
         </Button>
+
+        <!-- Logo -->
+        <Image HorizontalAlignment="Left" 
+               Height="119" 
+               Margin="261,116,0,0" 
+               VerticalAlignment="Top" Width="140"
+               Source="C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\Logo.png"
+               />
 
 
 

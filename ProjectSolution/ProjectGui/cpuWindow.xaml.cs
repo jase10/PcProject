@@ -19,7 +19,7 @@ namespace ProjectGui
     /// </summary>
     public partial class Window1 : Window
     {
-        private Cpu _cpu;
+        private Cpu _cpu; 
         CodeLayer Cl;
         public Window1()
         {
@@ -29,6 +29,7 @@ namespace ProjectGui
             
         }
 
+        // Button to change to Home window
         private void Home_Click(object sender, RoutedEventArgs e)
         {
             MainWindow win1 = new MainWindow();
@@ -37,6 +38,7 @@ namespace ProjectGui
             
         }
 
+        // Button Click to change to Account
         private void Account_Click(object sender, RoutedEventArgs e) 
         {
             LoginScreen ls = new LoginScreen();
@@ -46,6 +48,7 @@ namespace ProjectGui
 
         }
 
+        // Method to Populate List box from Database 
         private void PopulateListBox()
         {
             var listForBox = Cl.GetList();
@@ -56,7 +59,7 @@ namespace ProjectGui
             //}
         }
 
-
+        // List Box interaction
         private void ListBoxCPU_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
             if (ListBoxCPU.SelectedItem != null)
@@ -66,6 +69,7 @@ namespace ProjectGui
             }
         }
 
+        // Populate Method to get values when a user clicks a section
         private void PopulateCPUFields()
         {
             if (_cpu != null)

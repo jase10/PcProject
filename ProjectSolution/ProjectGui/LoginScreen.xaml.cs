@@ -22,10 +22,20 @@ namespace ProjectGui
             InitializeComponent();
         }
 
+        // Login Click 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
             MainWindow main = new MainWindow();
             main.Show();
+            Close();
+        }
+
+        // Register Click
+        private void Register_Click(object sender, RoutedEventArgs e)
+        {
+            RegisterWindow rn = new RegisterWindow();
+            rn.Show();
+            Close(); 
         }
     }
 }

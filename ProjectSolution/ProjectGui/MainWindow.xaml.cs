@@ -24,5 +24,31 @@ namespace ProjectGui
         {
             InitializeComponent();
         }
+
+       
+
+        private void btnHomeClick(object sender, RoutedEventArgs e)
+        {
+            MainWindow Mw = new MainWindow();
+            Mw.Show();
+            Close();
+
+        }
+
+        private void btnSearchClick(object sender, RoutedEventArgs e)
+        {
+            Window1 win1 = new Window1();
+            win1.Show();
+            Close();
+
+
+        }
+
+        private void btnAccountClick(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+
     }
 }

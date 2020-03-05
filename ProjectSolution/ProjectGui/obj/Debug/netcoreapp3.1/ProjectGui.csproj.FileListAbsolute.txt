@@ -71,3 +71,5 @@ C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\
 C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.dll
 C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.pdb
 C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\ProjectGui.csprojAssemblyReference.cache
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\RegisterWindow.g.cs
+C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\RegisterWindow.baml
