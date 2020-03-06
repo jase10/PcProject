@@ -65,7 +65,14 @@
             VerticalAlignment="Top" Width="140"
             Source="C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\Logo.png"
                />
-        <TextBox HorizontalAlignment="Left" Margin="81,312,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" TextChanged="TextBox_TextChanged"/>
+        <TextBox x:Name="wrongItem" 
+                 HorizontalAlignment="Left" 
+                 Margin="320,388,0,0" 
+                 Text="TextBox"
+                 TextWrapping="Wrap" 
+                 VerticalAlignment="Top" 
+                 Width="120" 
+TextChanged="TextBox_TextChanged"/>
 
     </Grid>
 </Window>

@@ -16,6 +16,7 @@ namespace ProjectGui
         }
 
         public virtual DbSet<Cpu> Cpu { get; set; }
+        public virtual DbSet<Users> Users { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
@@ -35,17 +36,23 @@ namespace ProjectGui
                 entity.Property(e => e.CpuId).HasColumnName("CPU_ID");
 
                 entity.Property(e => e.CpuName)
-                    .HasColumnName("CPU_Name")
-                    .HasColumnType("text");
+                .HasColumnName("CPU_Name")
+                .HasColumnType("text");
+
                 entity.Property(e => e.CoreCount)
+
                    .HasColumnName("CoreCount")
+
                    .HasColumnType("int");
+
                 entity.Property(e => e.CoreClock)
                    .HasColumnName("CoreClock")
                    .HasColumnType("float");
+
                 entity.Property(e => e.BoostClock)
                    .HasColumnName("BoostClock")
                    .HasColumnType("float");
+
                 entity.Property(e => e.Tdp).HasColumnName("TDP")
                 .HasColumnName("TDP")
                    .HasColumnType("int");
@@ -53,9 +60,27 @@ namespace ProjectGui
                 entity.Property(e => e.Price)
                     .HasColumnName("Price")
                     .HasColumnType("float");
-                 
+            });
 
-                
+            modelBuilder.Entity<Users>(entity =>
+            {
+                entity.HasNoKey();
+
+                entity.Property(e => e.FirstName)
+                    .HasColumnName("First_Name")
+                    .IsUnicode(false);
+
+                entity.Property(e => e.LastName)
+                    .HasColumnName("Last_Name")
+                    .IsUnicode(false);
+
+                entity.Property(e => e.UPassword)
+                    .HasColumnName("uPassword")
+                    .IsUnicode(false);
+
+                entity.Property(e => e.Username)
+                .HasColumnName("Username")
+                .IsUnicode(false);
             });
 
             OnModelCreatingPartial(modelBuilder);

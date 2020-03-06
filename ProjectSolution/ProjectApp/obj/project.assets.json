@@ -5114,11 +5114,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj",
+      "projectUniqueName": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj",
       "projectName": "ProjectApp",
-      "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj",
+      "projectPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj",
       "packagesPath": "C:\\Users\\TECH-W96birm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\obj\\",
+      "outputPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -5137,8 +5137,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
-              "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj"
+            "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
+              "projectPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj"
             }
           }
         }
