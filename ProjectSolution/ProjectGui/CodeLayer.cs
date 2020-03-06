@@ -18,6 +18,15 @@ namespace ProjectGui
             }
         }
 
+        public List<Users> GetUsers() 
+        {
+            using (var db = new PartDatabaseContext())
+            {
+                return db.Users.ToList();
+
+
+            }
+        }
         
 
 

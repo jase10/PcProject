@@ -26,7 +26,16 @@ namespace CodeTests
         public void CountListUsers() 
         {
             var expected = 1;
-            var result = _code.GetList().Count();
+            var result = _code.GetUsers().Count();
+            Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        public void IndexOne()
+        {
+
+            var expected = "ProjectGui.Cpu";
+            var result = _code.GetList().First().ToString();
             Assert.AreEqual(expected, result);
         }
 
