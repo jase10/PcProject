@@ -28,40 +28,40 @@ namespace ProjectGui
             
             
 
-                var userLogin = username.Text;
-                var userPassword = password.Password;
-                //StoredUserName = UsernameText.Text;
-                using (var db = new PartDatabaseContext())
-                {
+                //var userLogin = username.Text;
+                //var userPassword = password.Password;
+                ////StoredUserName = UsernameText.Text;
+                //using (var db = new PartDatabaseContext())
+                //{
 
-                    var LoginQuery =
-                    from Users in db.Users
-                    where Users.Username == userLogin
-                    where Users.uPassword == userPassword
-                    select account;
+                //    var LoginQuery =
+                //    from Users in db.Users
+                //    where Users.Username == userLogin
+                //    where Users.uPassword == userPassword
+                //    select account;
 
-                    foreach (var logins in LoginQuery)
-                    {
-                        if (userLogin == logins.UserName && userPassword == logins.UserPass)
-                        {
-                            MainWindow window = new MainWindow();
-                            window.Show();
-                            Close();
+                //    foreach (var logins in LoginQuery)
+                //    {
+                //        if (userLogin == logins.UserName && userPassword == logins.UserPass)
+                //        {
+                //            MainWindow window = new MainWindow();
+                //            window.Show();
+                //            Close();
 
                            
-                        }
-                        else
-                        {
-                            RightOrWrong.Text = "Wrong Username or/and Password";
-                        }
-                    }
+                //        }
+                //        else
+                //        {
+                //            wrongItem.Text = "Wrong Username or/and Password";
+                //        }
+                //    }
 
 
 
 
 
 
-                }
+                //}
 
 
 
