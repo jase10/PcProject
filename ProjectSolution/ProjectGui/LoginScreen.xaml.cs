@@ -9,6 +9,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Linq;
 
 namespace ProjectGui
 {
@@ -25,9 +26,8 @@ namespace ProjectGui
         // Login Click 
         private void Login_Click(object sender, RoutedEventArgs e)
         {
-            
-            
 
+<<<<<<< HEAD
                 //var userLogin = username.Text;
                 //var userPassword = password.Password;
                 ////StoredUserName = UsernameText.Text;
@@ -55,20 +55,50 @@ namespace ProjectGui
                 //            wrongItem.Text = "Wrong Username or/and Password";
                 //        }
                 //    }
+=======
+
+
+            var userLogin = username.Text;
+            var userPassword = password.Password;
+            //StoredUserName = UsernameText.Text;
+            using (var db = new PartDatabaseContext())
+            {
+
+                var LoginQuery =
+                from Users in db.Users
+                where Users.Username == userLogin
+                where Users.UPassword == userPassword
+                select Users;
+
+                foreach (var logins in LoginQuery)
+                {
+                    if (userLogin == logins.Username && userPassword == logins.UPassword)
+                    {
+                        MainWindow window = new MainWindow();
+                        window.Show();
+                        Close();
+>>>>>>> f39bdaaaf2083900506cdac411ad5fe512694e0b
+
+
+                    }
+                    else
+                    {
+                        wrongItem.Text = "Wrong Username or/and Password";
+                    }
+                }
 
 
 
 
-
-
+<<<<<<< HEAD
                 //}
+=======
+>>>>>>> f39bdaaaf2083900506cdac411ad5fe512694e0b
 
 
+            }
 
             
-            MainWindow main = new MainWindow();
-            main.Show();
-            Close();
         }
 
         // Register Click

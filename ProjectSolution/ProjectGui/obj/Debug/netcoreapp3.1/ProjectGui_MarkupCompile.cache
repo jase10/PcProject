@@ -4,15 +4,19 @@
 winexe
 C#
 .cs
-C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\
+C:\Users\TECH-W96birm\Desktop\Unscuffed Work\PcProject\ProjectSolution\ProjectGui\obj\Debug\netcoreapp3.1\
 ProjectGui
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
-C:\Users\TECH-W96birm\Documents\ProjectApp\PcProject\ProjectSolution\ProjectGui\App.xaml
+C:\Users\TECH-W96birm\Desktop\Unscuffed Work\PcProject\ProjectSolution\ProjectGui\App.xaml
 41150497981
 
+<<<<<<< HEAD
 7-369566924
+=======
+10-1544944076
+>>>>>>> f39bdaaaf2083900506cdac411ad5fe512694e0b
 220-385239947
 cpuWindow.xaml;LoginScreen.xaml;MainWindow.xaml;RegisterWindow.xaml;
 

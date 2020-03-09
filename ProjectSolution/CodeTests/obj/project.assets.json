@@ -6900,11 +6900,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\CodeTests\\CodeTests.csproj",
+      "projectUniqueName": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\CodeTests\\CodeTests.csproj",
       "projectName": "CodeTests",
-      "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\CodeTests\\CodeTests.csproj",
+      "projectPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\CodeTests\\CodeTests.csproj",
       "packagesPath": "C:\\Users\\TECH-W96birm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\CodeTests\\obj\\",
+      "outputPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\CodeTests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6923,11 +6923,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj": {
-              "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj"
+            "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj": {
+              "projectPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectApp\\ProjectApp.csproj"
             },
-            "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
-              "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj"
+            "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
+              "projectPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj"
             }
           }
         }

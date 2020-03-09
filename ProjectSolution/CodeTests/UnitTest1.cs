@@ -14,13 +14,31 @@ namespace CodeTests
         }
 
         [Test]
-        public void Test1()
+        public void CountListofCpus()
         {
             var expected = 6;
             var result = _code.GetList().Count;
             Assert.AreEqual(expected, result);
            
         }
+
+        [Test]
+        public void CountListUsers() 
+        {
+            var expected = 1;
+            var result = _code.GetUsers().Count();
+            Assert.AreEqual(expected, result);
+        }
+
+        [Test]
+        public void IndexOne()
+        {
+
+            var expected = "ProjectGui.Cpu";
+            var result = _code.GetList().First().ToString();
+            Assert.AreEqual(expected, result);
+        }
+
 
 
     }

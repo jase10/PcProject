@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {}
+    "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
+    "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj",
+        "projectUniqueName": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj",
         "projectName": "ProjectGui",
-        "projectPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj",
+        "projectPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\ProjectGui.csproj",
         "packagesPath": "C:\\Users\\TECH-W96birm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TECH-W96birm\\Documents\\ProjectApp\\PcProject\\ProjectSolution\\ProjectGui\\obj\\",
+        "outputPath": "C:\\Users\\TECH-W96birm\\Desktop\\Unscuffed Work\\PcProject\\ProjectSolution\\ProjectGui\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
